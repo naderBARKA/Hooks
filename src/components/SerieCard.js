@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import ReactStars from "react-rating-stars-component";
+import {Link} from "react-router"
 export default function SerieCard(props) {
   return (
     <div className="Card">
@@ -11,7 +12,11 @@ export default function SerieCard(props) {
           style={{ width: 250, height: 250 }}
         />
         <Card.Body>
-          <Card.Title className="text-danger">{props.serie.title}</Card.Title>
+        <Card.Title className="text-danger" />
+            {" "}
+            <Link to={`/description/${props.serie.id}`} state={props.serie.id}>
+              {props.serie.title}
+            </Link>
           <Card.Text className="text-muted">
             {props.serie.description}
           </Card.Text>

@@ -1,48 +1,58 @@
-
-
 .App {
-    text-align: center;
-    color: black;
-    background-color: rgb(7, 6, 6);
-  }
-  .Header {
-    display: flex;
-  
-    justify-content: space-between;
-  }
-  .Add {
-    font-family: sans-serif;
-  }
-  
-  .Card {
-   
-    padding: 10px;
-    height: 500px;
-    width: 200px;
-  }
-  .List {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    border: 3px solid black;
-  }
-  .footer {
-    justify-content: center;
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.Header {
+  display: flex;
 
-  }
-  .Search {
-    padding: 25px;
-  }
-  .Add {
-    padding: 30px;
-  }
-  #adds {
-    margin-left: 680px;
-    margin-top: 0px;
-  }
-  
+  justify-content: space-between;
+}
+.Add {
+  font-family: sans-serif;
+}
+
+.Card {
+  padding: 10px;
+  height: 550px;
+  width: 250px;
+}
+.List {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: 3px solid black;
+}
+footer {
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.Search {
+  padding: 25px;
+}
+.Add {
+  padding: 30px;
+}
+#adds {
+  margin-left: 680px;
+  margin-top: 0px;
+}
+.text-center {
+  text-align: center;
+}
+h1 {
+  color: blue;
+}
+#text {
+  width: 560px;
+  padding-left: 480px;
+}
+#footer {
+  padding-left: 680px;
+}
+
+
  
